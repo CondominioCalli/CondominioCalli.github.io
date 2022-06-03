@@ -1,0 +1,30 @@
+table td:nth-child(even){
+    background-color: rgb(198, 255, 236);
+    padding-block: 15px;
+}
+
+table td:nth-child(odd){
+    background-color: rgb(172, 205, 255);
+    padding-block: 15px;
+}
+table th{
+    background-color: rgb(255, 123, 123);
+    color: white;
+    padding-block: 15px;
+}
+table{
+    text-align: center;
+    margin: 15px;
+    border-spacing: 5px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+
+
+}
+.mod{
+    background-color: rgb(22, 0, 102);
+}
+body{
+    background-color: rgb(255, 233, 204);
+}

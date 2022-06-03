@@ -1,0 +1,203 @@
+* {
+  /* Layout Declarations */
+	box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+  }
+body {
+	/* Typography Declarations */
+	color: #222222;
+	font-size: 1em;
+   font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   background-image: url("https://img.freepik.com/foto-gratis/elemento-diseno-textura-fondo-blanco-blanco_53876-146863.jpg?size=626&ext=jpg&ga=GA1.2.1844125661.1648411543");
+   background-size: contain;
+}
+
+::selection {
+  /* Appearance Declarations */
+	background: #FFE799;
+}
+
+a {
+	/* Typography Declrations */
+	font-weight: bold;
+	text-decoration: none;
+	color: #f0d266;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #fcf1cf;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #fdf8aa;
+}
+
+.masthead,
+.introduction,
+.content-footer {
+    /* Layout Declarations */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  .menu {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    top:0px;
+  }
+  
+  nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 18px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #00c2b8;
+  }
+
+.masthead-intro,
+.masthead-heading,
+.content-footer > p,
+.social {
+    /* Layout Declarations */
+    text-align: center;
+}
+
+.introduction{
+	/* Layout Declarations */
+   max-width: 70em;
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 20px;
+}
+
+.introduction > p,
+.content-footer > p {
+	/* Typography Declarations */
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.masthead {
+	/* Layout Declrations */
+	padding: 6em 0;
+	/* Appearance Declrations */
+	background-image: url('https://img.freepik.com/vector-gratis/escena-urbana-noche_53876-117915.jpg?t=st=1654190170~exp=1654190770~hmac=faece5a77c573a5e97e49dc3445c3d338a3abeb52692505bce950a6060f930ef&w=740');
+	background-repeat: repeat;
+	background-size: contain;
+	border-top: solid 4em #FFCF33;
+}
+
+.masthead-intro {
+	/* Layout Declarations */
+	margin-bottom: 0.1em;
+	/* Typography Declarations */
+	color: #FFFFFF;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	/* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	color: #FFF1C2;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 5px 0px #FFCF33;
+}
+
+.heading {
+	/* Layout Declarations */
+	max-width: 19em;
+	margin-top: 2em;
+    color: #f7bd00;
+    -webkit-text-stroke: 1px black;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+
+.content-footer {
+	/* Layout Declarations */
+	margin-top: 5em;
+	padding: 4em 0;
+	/* Appearance Rules */
+	background-color: #594F49;
+}
+
+.content-footer > p {
+  /* Typography Declarations */
+  color: white;
+}
+
+.social {
+	/* Layout Declarations */
+	padding: 0;
+	/* Appearance Declarations */
+	list-style: none;
+}
+
+.social > li {
+	/* Layout Declarations */
+	display: inline-block;
+	margin-right: 1em;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+.animated{
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    width: 170px;
+    height: 60px;
+    padding: 18px 39px 18px 39px;
+    color: rgb(243, 234, 234);
+    background-color: #207ae0;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    border: 1px solid #06274d;
+    border-width: 1px 1px 1px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }

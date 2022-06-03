@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabla de Precios</title>
+        <link rel="stylesheet" type="text/css" href="estformulario.css"> <!--Estilos-->
+    </head>
+    <body>
+<center><h1>Registrate! </h1></center>
+        <fieldset> <!--Inicia formulario datos personales-->
+            <form>
+            <legend>Datos Personales</legend>
+            Nombre:
+            <input type="text" name="nameUsr" maxlength="12" autofocus required><br>
+            Apellido:
+            <input type="text" name="ApUsr" maxlength="20" required><br>
+            Fecha de nacimiento:
+            <input type="date" name="FeNa"><br>
+        </form>
+        </fieldset>
+        <fieldset>
+        <form> <!--Inicia formulario datos de contacto-->
+            <legend>Contacto</legend>
+            Número de Télefono:
+            <input type="tel" name="num" maxlength="12" autofocus required><br>
+            Correo:
+            <input type="mail" name="mail" maxlength="18"  required autocomplete="off"><p>
+        </form>
+        </fieldset>
+        <hr noshade="15">
+        <fieldset>
+            <form> <!--Inicia formulario para crear perfil-->
+            <legend>Crea tu perfil!</legend>
+            Usuario:
+            <input type="text" name="Usr" maxlength="15" autofocus required><br>
+            Contraseña:
+            <input type="password"  name="password" required maxlength="10"/><br>
+        <input id="es1" type = "submit" class ="animated" value = "Registrarme"></button>
+    </form>
+    </fieldset>
+    <hr noshade="15">
+    <fieldset>
+        <form> <!--Inicia area para dejar comentarios-->
+        <legend>Deja tus comentarios!</legend>
+    <form action="mailto:example@gmail.com" method="post" enctype="text/plain">
+        Mensaje:
+        <textarea name="msg"  cols="30" rows="10">Escribe aqui tus comentarios</textarea><br>
+        <input id="es1" type="submit" class="animated" name="coment">
+    </form>
+    </fieldset>
+    </body>
+</html>
